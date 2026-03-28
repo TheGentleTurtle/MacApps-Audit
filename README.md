@@ -9,7 +9,7 @@ A tool that searches r/macapps for mentions of an app and collects all the data 
 3. A CSV file appears in this folder
 4. Upload the CSV to an AI (ChatGPT, Claude, etc.) along with the prompt below
 
-First time? macOS may block it. Go to **System Settings > Privacy & Security** and click **Allow**.
+First time? macOS will block it. Open Terminal, type `xattr -cr ` (with the space at the end), then drag the **MacApps-Audit** folder from Finder into the Terminal window and hit Enter. Then double-click **MacApps Audit.command** again.
 
 ## What it does
 
